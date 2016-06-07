@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Fight against a super girl</title>
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+	<body>
+		<div class="container">
+			<div id="controls">
+				<div class="row">
+					<div class="col-xs-8 col-sm-5">
+						<button href="javascript:void(0)" class="btn btn-success" id="playPause">Play</button>
+						<div id="fasterSlowerContainer">
+							<button href="javascript:void(0)" class="btn btn-default" id="faster"><span class="hidden-qs hidden-xs">Faster</span><span class="visible-xs">++</span></button>
+							<button href="javascript:void(0)" class="btn btn-default" id="slower"><span class=
+							"hidden-qs hidden-xs">Slower</span><span class="visible-xs">--</span></button>
+						</div>
+					</div>
+					<div class="col-xs-4 col-sm-7" id="nextContainer">
+						<button href="javascript:void(0)" class="btn btn-default" id="next">Next Go</button>
+					</div>
+				</div>
+			</div>
+			<div id="players">
+				<div class="row">
+					<div class="col-xs-6">
+						<div class="player" id="her">
+							<div class="title">Her</div>
+							<div class="attributes">
+								<div class="condition attribute"><div class="bad">Condition<span class="description hidden-xs"> - bad</span><span class="value">10%</span></div></div>
+								<div class="stamina attribute"><div class="not-great">Stamina<span class="description hidden-xs"> - not Great</span><span class="value">25%</span></div></div>
+								<div class="morale attribute"><div class="ok">Morale<span class="description hidden-xs"> - okay</span><span class="value">50%</span></div></div>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-6">
+						<div class="player" id="him">
+							<div class="title">Him</div>
+							<div class="attributes">
+								<div class="condition attribute"><div class="excellent">Condition<span class="description hidden-xs"> - excellent</span><span class="value">100%</span></div></div>
+								<div class="stamina attribute"><div class="excellent">Stamina<span class="description hidden-xs"> - excellent</span><span class="value">100%</span></div></div>
+								<div class="morale attribute"><div class="excellent">Morale<span class="description hidden-xs"> - excellent</span><span class="value">100%</span></div></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="asReportedByHim">Her attributes above are guesses he makes during the fight. <a href="#otherInfo">More info here</a> - clicking doesn't reset fight.</div>
+			<div id="roundAndTime">
+				<div class="row">
+					<div class="col-xs-6">
+						<div id="round">Round 1 of 12</div>
+					</div>
+					<div class="col-xs-6">
+						<div id="time">3:00 left</div>
+					</div>
+				</div>
+			</div>
+			<div id="happenings"></div>
+			<div id="otherInfo">
+				This was last updated on 6th June 2016 and is version beta 9<br>
+				<a class="btn btn-danger" href="all-fight-text.html" id="showAllCurrentData">View all fight text - RESETS current fight</a> <br>
+				<a class="btn btn-success" href="#controls">Go back up to latest part of this fight</a>
+			</div>
+		</div>
+		<script src="js/jquery.js"></script>
+		<script src="js/data.js"></script>
+		<script src="js/main.js"></script>
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-78793779-1', 'auto');
+		  ga('send', 'pageview');
+		</script>
+	</body>
+</html>

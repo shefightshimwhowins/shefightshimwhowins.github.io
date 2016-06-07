@@ -1,0 +1,137 @@
+#controls {
+	padding: 5px 0;
+}
+.btn {
+	font-size: 13px;
+}
+#playPause {
+	width: 64px;
+}
+#fasterSlowerContainer {
+	display: inline-block;
+	margin-left: 16px;
+}
+#nextContainer {
+	text-align: right;
+}
+#faster {
+	margin-right: 8px;
+}
+.player {
+	background: #666;
+	padding: 2px 5px 5px;
+}
+.player .title {
+	color: #fff;
+	font-weight: bold;
+	margin-bottom: 2px;
+}
+.player .attribute div {
+	padding: 2px 3px;
+}
+.player .attribute .value {
+	float: right;
+}
+.player .stamina {
+	border: 1px #666 solid;
+	border-left-style: none;
+	border-right-style: none;
+}
+.attribute .godlike, .attribute .superhuman, .attribute .terrifying, .attribute .scary {
+	color: #fff;
+}
+.attribute .godlike {
+	background-color: #5500ff;
+}
+.attribute .superhuman {
+	background-color: #0000ff;
+}
+.attribute .terrifying {
+	background-color: #0055ff;
+}
+.attribute .scary {
+	background-color: #00aaff;
+}
+.attribute .bewildering {
+	background-color: #00ffff;
+}
+.attribute .ridiculous {
+	background-color: #00ffaa;
+}
+.attribute .incredible {
+	background-color: #00ff55;
+}
+.attribute .amazing {
+	background-color: #00ff00;
+}
+.attribute .excellent {
+	background-color: #55ff00;
+}
+.attribute .good {
+	background-color: #aaff00;
+}
+.attribute .ok {
+	background-color: #ffff00;
+}
+.attribute .not-great {
+	background-color: #ffaa00;
+}
+.attribute .bad {
+	background-color: #ff5500;
+}
+#asReportedByHim {
+	color: #999;
+	font-size: 12px;
+}
+#asReportedByHim a {
+	color: #666;
+	text-decoration: underline;
+}
+#roundAndTime {
+	background: #ddd;
+	border: 1px #aaa solid;
+	margin-top: 10px;
+}
+#round, #time {
+	font-weight: bold;
+	padding: 2px 5px 5px;
+}
+#time {
+	text-align: right;
+}
+#happenings {
+	padding-bottom: 200%;
+}
+.happening {
+	border: 1px #ccc solid;
+	border-top-style: none;
+	padding: 3px 5px;
+}
+.happening .changes {
+	text-align: right;
+}
+.happening .changes span {
+	margin-left: 10px;
+}
+.happening .changes .positive {
+	color: #55ff00;
+}
+.happening .changes .negative {
+	color: #ff5500;
+}
+#otherInfo {
+	border-top: 1px #ccc solid;
+	padding: 20px 0 30px;
+}
+#otherInfo .btn {
+	margin-top: 20px;
+}
+#allFightText h1 {
+	font-size: 20px;
+}
+#allFightText #values {
+	border-top: 1px #ccc solid;
+	margin-top: 30px;
+	padding-top: 20px;
+	white-space: pre-wrap;
+}
