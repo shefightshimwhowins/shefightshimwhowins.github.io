@@ -53,6 +53,17 @@ var theirOptions = {
 				'"I\'m sorry my dear", he says, "but you do realise I am boxing heavyweight champion of the world. I am sure you are a very good for a woman of your size but I don\'t think I can fight you." She grins. "There are two things you need me to tell you", she says, "First, you don\'t have a choice. Second, this is not going to be a fight in any conventional sense of the word."'
 			]
 		},
+		'boob punch': {
+			times: 0,
+			chance: 20,
+			condition: 10,
+			stamina: -1,
+			morale: 10,
+			future: -20,
+			text: [
+				'He throws a hard punch towards the top of her stomach, and as it approaches she pointedly stoops forward so he finds his hand buried in her boobs. She looks down and laughs as he holds his hand in place. "If you wanted to feel me up", she says, "you could have been a whole lot more subtle."'
+			]
+		},
 		'cocky guy': {
 			times: 0,
 			chance: 150,
